@@ -2,16 +2,16 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import styles from "./ProjectCard.module.css"
-import { getImageUrl } from '../../utils'
+// import { getImageUrl } from '../../utils'
 
 export const ProjectCard = ({
     // eslint-disable-next-line react/prop-types
-    project: { title, imageSrc, description, skills, demo, source }
+    project: { title, description, skills, demo, source, /*imageSrc */ }
 }) => {
 
   return (
     <div className={styles.container}>
-    <img src={getImageUrl(imageSrc)} alt={`Image of ${title}`} className={styles.image} />
+    {/* <img src={getImageUrl(imageSrc)} alt={`Image of ${title}`} className={styles.image} /> */}
     <h3 className={styles.title}>{title}</h3>
     <p className={styles.description}>{description}</p>
     <ul className={styles.skills}>
@@ -22,8 +22,8 @@ export const ProjectCard = ({
 )}
     </ul>
     <div className={styles.links}>
-        <a href={demo} className={styles.link}>Demo</a>
-        <a href={source} className={styles.link}>Source</a>
+        <a href={demo} className={styles.link}>Link</a>
+        <a href={source} className={styles.link}>Github</a>
     </div>
 </div>
   )

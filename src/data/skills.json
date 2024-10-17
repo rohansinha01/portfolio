@@ -22,5 +22,13 @@
     {
       "title": "Typescript",
       "imageSrc": "skills/typescript.png"
+    },
+    {
+      "title": "NextJS",
+      "imageSrc": "skills/next-js.svg"
+    },
+    {
+      "title": "Angular",
+      "imageSrc": "skills/angular-icon.svg"
     }
   ]

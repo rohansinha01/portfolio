@@ -1,26 +1,26 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Sum This Up",
+      "imageSrc": "projects/ai_sum.png",
+      "description": "Using AI, this website can help you summarize articles into a par",
+      "skills": ["React", "API", "AI", "CSS", "Javascript"],
+      "demo": "https://sumthisup.netlify.app/",
+      "source": "https://github.com/rohansinha01/ai-summarizer"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Car Showcase",
+      "imageSrc": "projects/car_showcase.png",
+      "description": "App that pulls from an API and allows filtering and showcasing modules.",
+      "skills": ["NextJS", "Typescript", "API"],
+      "demo": "https://car-showcase-1d48uetua-rohan-sinhas-projects.vercel.app/",
+      "source": "https://github.com/rohansinha01/car_showcase"
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Did I Like That?",
+      "imageSrc": "projects/didilikethat.png",
+      "description": "A full CRUD application that serves as a media diary.",
+      "skills": ["NextJS", "Typescript", "Node", "Appwrite"],
+      "demo": "https://capstone-two-psi.vercel.app/",
+      "source": "https://github.com/rohansinha01/capstone"
     }
   ]
