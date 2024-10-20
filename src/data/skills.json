@@ -30,5 +30,13 @@
     {
       "title": "Angular",
       "imageSrc": "skills/angular-icon.svg"
+    },
+    {
+      "title": "Git",
+      "imageSrc": "skills/git.png"
+    },
+    {
+      "title": "Docker",
+      "imageSrc": "skills/docker-mark-blue.svg"
     }
   ]
