@@ -9,9 +9,6 @@ export const Navbar = () => {
   return (
     <nav className={styles.navbar}>
     <a className={styles.title} href="/">Portfolio</a>
-    <a href={getImageUrl("hero/Rohan_Sinha_Resume.pdf")} download="Rohan_Sinha_Resume.pdf" className={styles.title}>
-          Download Resume
-        </a>
     <div className={styles.menu}>
         <img 
             className={styles.menuBtn} 

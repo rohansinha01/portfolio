@@ -38,5 +38,14 @@
     {
       "title": "Docker",
       "imageSrc": "skills/docker-mark-blue.svg"
+    },
+    {
+      "title": "C#",
+      "imageSrc": "skills/Logo_C_sharp.svg"
+    },
+    {
+      "title": ".NET",
+      "imageSrc": "skills/Microsoft_.NET_logo.svg.png"
     }
+      
   ]

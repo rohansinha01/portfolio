@@ -48,6 +48,7 @@
         align-items: flex-end;
         gap: 11px;
         z-index: 3;
+        
     }
 
     .menuBtn {
@@ -70,5 +71,13 @@
     .menuOpen {
         display: flex;
         z-index: 1;
+        
+    }
+}
+
+@media screen and (min-width: 830px) {
+    .menuBtn {
+        display: none;
+    
     }
 }

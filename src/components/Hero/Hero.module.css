@@ -15,7 +15,7 @@
 .content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: space-evenly;
     color: var(--color-text);
     z-index: 1;
 }

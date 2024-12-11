@@ -14,9 +14,15 @@ export const Hero = () => {
           I am a full-stack developer. If you have any questions, please feel
           free to reach out to me!
         </p>
+        <div className={styles.buttons}>
         <a href="mailto:rohansinha01@gmail.com" className={styles.contactBtn}>
           Contact Me
         </a>
+        {' '}
+        <a href={getImageUrl("hero/Rohan_Sinha_Resume.pdf")} download="Rohan_Sinha_Resume.pdf" className={styles.contactBtn}>
+          Download Resume
+        </a>
+        </div>
       </div>
       <img
         src={getImageUrl("hero/Headshot.JPG")}
