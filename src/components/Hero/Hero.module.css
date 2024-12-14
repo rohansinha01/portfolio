@@ -45,6 +45,9 @@
     font-weight: 600;
     padding: 17px 26px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    width: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .heroImg {
@@ -98,6 +101,14 @@
     z-index: 0;
 }
 
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-evenly;
+    gap: 10px
+}
+
 @media screen and (max-width: 830px) {
     .container {
         flex-wrap: column-reverse;
@@ -105,5 +116,13 @@
 
     .content {
         align-items: center;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
     }
 }
