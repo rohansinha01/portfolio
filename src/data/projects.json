@@ -26,7 +26,7 @@
     {
       "title": "Carepulse",
       "imageSrc": "projects/carepulse.png",
-      "description": "Build a healthcare platform that streamlines patient registration, appointment scheduling, and medical records, with the ability to communicate via SMS notifications",
+      "description": "Scheduling platform supporting SMS messaging",
       "skills": ["NextJS", "Typescript", "Sentry", "Appwrite"],
       "demo": "https://carepulse-omega-opal.vercel.app/",
       "source": "https://github.com/rohansinha01/carepulse"
