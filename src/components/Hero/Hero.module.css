@@ -109,6 +109,10 @@
     gap: 10px
 }
 
+.a {
+    text-align: center;
+}
+
 @media screen and (max-width: 830px) {
     .container {
         flex-wrap: column-reverse;
