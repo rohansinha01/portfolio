@@ -2,7 +2,7 @@
     {
       "title": "Sum This Up",
       "imageSrc": "projects/ai_sum.png",
-      "description": "Using AI, this website can help you summarize articles into a par",
+      "description": "Using AI, this website can help you summarize articles.",
       "skills": ["React", "API", "AI", "CSS", "Javascript"],
       "demo": "https://sumthisup.netlify.app/",
       "source": "https://github.com/rohansinha01/ai-summarizer"
